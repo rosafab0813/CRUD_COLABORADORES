@@ -1,0 +1,153 @@
+
+body {
+    background-color: #f8c7d7; 
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+
+form {
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+
+input[type="text"], input[type="number"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+
+input[type="submit"], input[type="reset"], .btn {
+    background-color: #f28cb1; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+
+.btn-edit, .btn-delete {
+    display: inline-flex;  
+    align-items: center;   
+    justify-content: center;
+    padding: 8px;           
+    transition: transform 0.3s ease;  
+}
+
+
+.btn-edit img, .btn-delete img {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+
+.btn-edit:hover, .btn-delete:hover {
+    transform: scale(1.2); 
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.caja {
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f28cb1;
+    color: white;
+}
+
+table td a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.table-container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+header {
+    background-color: #f28cb1;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+
+.insertar-colaborador-btn {
+    display: inline-flex;  
+    align-items: center;    
+    justify-content: center;
+    background-color: #f28cb1;
+    color: white;
+    padding: 10px 20px;     
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 20px;   
+    transition: background-color 0.3s ease;
+}
+
+
+.insertar-colaborador-btn img {
+    margin-right: 8px;
+    width: 28px;     
+    height: 28px;    
+}
+
+
+.insertar-colaborador-btn:hover {
+    background-color: #e20b75; 
+}
